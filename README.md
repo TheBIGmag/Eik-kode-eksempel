@@ -36,7 +36,7 @@ Herefter sender websocket'en kun *ændringer* til det data, der blev hentet ved 
 
 Livetiming sender nogle gange en omgangstid på over 10 minutter, hvis bilen har været i pit under en træning. De tider filtrerer jeg fra, før jeg gemmer.
 
-Grunden til, at jeg tjekker to gange — både mod last lap og mod best lap — er for ikke at misse et edge case: i træning 2 kan føreren godt køre sin egen hurtigste tid uden at slå tiden fra træning 1, som er den, teamet ønsker at holde ham op imod.
+Grunden til, at jeg tjekker to gange både mod last lap og mod best lap er for ikke at misse et edge case: i træning 2 kan føreren godt køre sin egen hurtigste tid uden at slå tiden fra træning 1, som er den, teamet ønsker at holde ham op imod.
 
 ## Forbehold (reverse engineering)
 
